@@ -1,0 +1,38 @@
+{
+  "corpus_documents": 8,
+  "chunks": 8,
+  "questions": [
+    {
+      "question": "What are the library opening hours?",
+      "expected": "01-library",
+      "top": "01-library"
+    },
+    {
+      "question": "How do I reserve a workstation?",
+      "expected": "02-workstations",
+      "top": "02-workstations"
+    },
+    {
+      "question": "What is the support desk reference code?",
+      "expected": "03-support",
+      "top": "03-support"
+    },
+    {
+      "question": "How long can I borrow an adapter?",
+      "expected": "07-checkout",
+      "top": "07-checkout"
+    },
+    {
+      "question": "How long can the walkthrough video be?",
+      "expected": "04-project-delivery",
+      "top": "04-project-delivery"
+    },
+    {
+      "question": "What data can I publish in a public repository?",
+      "expected": "05-data-policy",
+      "top": "05-data-policy"
+    }
+  ],
+  "top1_accuracy": 1,
+  "note": "Small handcrafted retrieval set, not a generation-quality benchmark."
+}

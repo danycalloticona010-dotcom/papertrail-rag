@@ -1,0 +1,15 @@
+{
+  "activity": "Retrieval-Augmented Generation Application — U2",
+  "author": "Marymar Danytza Calloticona Chambilla",
+  "article_language": "en",
+  "repository": null,
+  "application": null,
+  "article": null,
+  "successful_deployment": null,
+  "status": "Prepared locally. GitHub browser sign-in is required to create the public repository; public deployment and DEV.to publication are not verified.",
+  "local_validation": "7 automated test groups passed. Real browser generation produced ORBIT-42 and library hours; an unrelated query skipped generation. A loan-duration generation error is documented.",
+  "video": null,
+  "video_status": "Marymar will record and publish a public video of at most five minutes.",
+  "telegram_status": "Marymar will send article and video links to her Telegram group.",
+  "complete_submission": false
+}

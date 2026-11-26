@@ -1,0 +1,47 @@
+[
+  {
+    "name": "squad-style",
+    "type": "answer",
+    "answer": "a library",
+    "inputTokens": 107,
+    "milliseconds": 354,
+    "model": "Xenova/flan-t5-small",
+    "revision": "311454e83bc784267fd7eef5940ee854144abbec"
+  },
+  {
+    "name": "passage-first",
+    "type": "answer",
+    "answer": "During the demonstration's examination week, the same opening hours apply; there is no evening extension.",
+    "inputTokens": 111,
+    "milliseconds": 755,
+    "model": "Xenova/flan-t5-small",
+    "revision": "311454e83bc784267fd7eef5940ee854144abbec"
+  },
+  {
+    "name": "question-first",
+    "type": "answer",
+    "answer": "Using this document may help you understand the limitations of the library.",
+    "inputTokens": 103,
+    "milliseconds": 581,
+    "model": "Xenova/flan-t5-small",
+    "revision": "311454e83bc784267fd7eef5940ee854144abbec"
+  },
+  {
+    "name": "context-question",
+    "type": "answer",
+    "answer": "The fictional Atlas Learning Lab library opens Monday to Friday from 09:00 to 17:00. It is closed on Saturdays and Sundays During the demonstration's examination week, the same opening hours apply; there is no evening extension.",
+    "inputTokens": 111,
+    "milliseconds": 1411,
+    "model": "Xenova/flan-t5-small",
+    "revision": "311454e83bc784267fd7eef5940ee854144abbec"
+  },
+  {
+    "name": "squad-support",
+    "type": "answer",
+    "answer": "A useful support report describes the problem, the workstation number, and the time it occurred.",
+    "inputTokens": 116,
+    "milliseconds": 750,
+    "model": "Xenova/flan-t5-small",
+    "revision": "311454e83bc784267fd7eef5940ee854144abbec"
+  }
+]

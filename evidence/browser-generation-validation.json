@@ -1,0 +1,27 @@
+{
+  "tested_on": "2026-11-25",
+  "model": "Xenova/flan-t5-small",
+  "context_passages": 1,
+  "prompt_style": "Context followed by Based on the context, question",
+  "support": {
+    "question": "What is the support desk reference code?",
+    "answer": "ORBIT-42",
+    "metadata": "120 input tokens · 381 ms generation · Xenova/flan-t5-small"
+  },
+  "library": {
+    "question": "What are the library opening hours?",
+    "answer": "The fictional Atlas Learning Lab library opens Monday to Friday from 09:00 to 17:00. It is closed on Saturdays and Sundays During the demonstration's examination week, the same opening hours apply; there is no evening extension.",
+    "metadata": "111 input tokens · 1596 ms generation · Xenova/flan-t5-small"
+  },
+  "equipment": {
+    "question": "How long can I borrow an adapter?",
+    "answer": "A learner may borrow at most two adapters at once.",
+    "metadata": "118 input tokens · 668 ms generation · Xenova/flan-t5-small"
+  },
+  "unsupported": {
+    "question": "What is the capital of France?",
+    "status": "No supporting passages · generation skipped",
+    "answer": "I cannot answer from these documents. Try a question about the fictional Atlas handbook."
+  },
+  "scope": "Local browser integration checks. Public deployment is not verified yet."
+}

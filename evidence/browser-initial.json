@@ -1,0 +1,20 @@
+{
+  "support": {
+    "question": "What is the support desk reference code?",
+    "answer": "The fictional Atlas Learning Lab support desk uses the reference code ORBIT-42. Include ORBIT-42 when reporting a problem with a demonstration workstation. The support desk is located in Room Cedar, beside the east entrance. A useful support report describes the problem, the workstation number, and the time it occurred.",
+    "metadata": "227 input tokens · 2321 ms generation · Xenova/flan-t5-small",
+    "evidence": "[1]\nSupport desk and reference code ↗\n\nThe fictional Atlas Learning Lab support desk uses the reference code ORBIT-42. Include ORBIT-42 when reporting a problem with a demonstration workstation. The support desk is located in Room Cedar, beside the east entrance. A useful support report describes the problem, the workstation number, and the time it occurred. Never include passwords or authentication tokens in a support report. The desk and reference code exist only in this application’s invented handbook and are not real institutional contact details.\n\nBM25 7.91 · query-term coverage 100% · 03-support-1\n[2]\nEquipment checkout ↗\n\nThe fictional Atlas Learning Lab lends demonstration adapters for up to three calendar days. Return borrowed adapters to Room Cedar before 16:00 on the due date. A learner may borrow at most two adapters at once. Workstation computers stay inside the workstation room and cannot be checked out. Ask the support desk about a missing adapter, using reference code ORBIT-42. These lending conditions are invented for retrieval tests and do not establish a real library or laboratory policy.\n\nBM25 4.41 · query-term coverage 100% · 07-checkout-1"
+  },
+  "library": {
+    "question": "What are the library opening hours?",
+    "answer": "The fictional Atlas Learning Lab library opens Monday to Friday from 09:00 to 17:00. It is closed on Saturdays and Sundays. Its schedule differs from the library's opening hours.",
+    "metadata": "223 input tokens · 1699 ms generation · Xenova/flan-t5-small",
+    "evidence": "[1]\nLibrary opening hours ↗\n\nThe fictional Atlas Learning Lab library opens Monday to Friday from 09:00 to 17:00. It is closed on Saturdays and Sundays. During the demonstration's examination week, the same opening hours apply; there is no evening extension. Visitors enter through the east entrance and may read the printed reference collection inside the library. These hours are invented for this application and do not describe a real university. Questions about library opening hours should use this document as the source.\n\nBM25 6.18 · query-term coverage 100% · 01-library-1\n[2]\nWorkstation reservations ↗\n\nAt the fictional Atlas Learning Lab, reserve a workstation through the Atlas booking portal before arriving. Each reservation lasts two hours. A learner may hold one active reservation at a time. Cancel a reservation at least thirty minutes before its starting time if the workstation is no longer needed. The workstation room opens from 08:00 to 20:00 on weekdays. Its schedule differs from the library's opening hours. All names and policies in this demonstration handbook are fictional.\n\nBM25 4.05 · query-term coverage 100% · 02-workstations-1"
+  },
+  "unsupported": {
+    "question": "What is the capital of France?",
+    "status": "No supporting passages · generation skipped",
+    "answer": "I cannot answer from these documents. Try a question about the fictional Atlas handbook."
+  },
+  "note": "Initial two-passage generation: a correct library schedule was followed by an irrelevant sentence from the workstation passage. Context selection is being refined."
+}
