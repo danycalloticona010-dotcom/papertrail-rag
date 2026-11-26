@@ -1,6 +1,6 @@
 ---
 title: "Building a Browser-Based RAG Application with JavaScript and Hugging Face"
-published: false
+published: true
 tags: ai, javascript, rag, tutorial
 ---
 
@@ -112,7 +112,11 @@ The GitHub Actions workflow runs on pushes to `main` and supports manual executi
 
 GitHub Pages serves the application files; inference remains in the browser. The workflow uses GitHub's short-lived deployment token and needs no external cloud credential. The [Pages custom-workflow guide](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) describes that publishing flow.
 
-The repository and deployment links will be added after their public availability and a successful workflow execution are verified. A workflow configuration alone is not evidence of a successful deployment.
+- [Public source repository](https://github.com/danycalloticona010-dotcom/papertrail-rag)
+- [Public RAG application](https://danycalloticona010-dotcom.github.io/papertrail-rag/)
+- [Successful automated deployment](https://github.com/danycalloticona010-dotcom/papertrail-rag/actions/runs/45825632455)
+
+The public deployment was verified on November 26, 2026. The actual browser model generated ORBIT-42 for the support question and the documented library hours. An unrelated capital-city question skipped generation because no evidence qualified. The initial automated workflow also imported the reviewed source archive into ordinary repository files, avoiding the need to share a long-lived GitHub token.
 
 ## 10. What I would improve next
 

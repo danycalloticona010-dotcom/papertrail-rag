@@ -1,0 +1,10 @@
+Actividad Grupal U2: Retrieval-Augmented Generation (RAG)
+Estudiante: Marymar Danytza Calloticona Chambilla
+
+Artículo publicado en inglés:
+Building a Browser-Based RAG Application with JavaScript and Hugging Face
+https://dev.to/marymar_danytzacallotico/building-a-browser-based-rag-application-with-javascript-and-hugging-face-3mii
+
+Repositorio público: https://github.com/danycalloticona010-dotcom/papertrail-rag
+Aplicación: https://danycalloticona010-dotcom.github.io/papertrail-rag/
+Video (máximo 5 minutos): [AGREGAR AQUÍ EL ENLACE DEL VIDEO]

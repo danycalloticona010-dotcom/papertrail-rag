@@ -2,14 +2,17 @@
   "activity": "Retrieval-Augmented Generation Application — U2",
   "author": "Marymar Danytza Calloticona Chambilla",
   "article_language": "en",
-  "repository": null,
-  "application": null,
-  "article": null,
-  "successful_deployment": null,
-  "status": "Prepared locally. GitHub browser sign-in is required to create the public repository; public deployment and DEV.to publication are not verified.",
+  "repository": "https://github.com/danycalloticona010-dotcom/papertrail-rag",
+  "application": "https://danycalloticona010-dotcom.github.io/papertrail-rag/",
+  "article": "https://dev.to/marymar_danytzacallotico/building-a-browser-based-rag-application-with-javascript-and-hugging-face-3mii",
+  "successful_deployment": "https://github.com/danycalloticona010-dotcom/papertrail-rag/actions/runs/45825632455",
+  "status": "Public repository, automated deployment, public application and English DEV.to article verified.",
   "local_validation": "7 automated test groups passed. Real browser generation produced ORBIT-42 and library hours; an unrelated query skipped generation. A loan-duration generation error is documented.",
   "video": null,
   "video_status": "Marymar will record and publish a public video of at most five minutes.",
   "telegram_status": "Marymar will send article and video links to her Telegram group.",
-  "complete_submission": false
+  "complete_submission": false,
+  "verified_on": "2026-11-26",
+  "article_published": true,
+  "assignment_upload_status": "Pending student upload; no classroom submission performed."
 }

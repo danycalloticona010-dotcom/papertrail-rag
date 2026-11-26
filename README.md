@@ -4,6 +4,15 @@
 
 Papertrail implements retrieval-augmented generation in JavaScript: Markdown ingestion, overlapping chunks, BM25 retrieval, a context-augmented prompt, and actual FLAN-T5 text generation through Transformers.js in a Web Worker. Retrieved passages, scores and model metadata remain visible for inspection. The application requires no paid API key.
 
+## Public links
+
+- [English article](https://dev.to/marymar_danytzacallotico/building-a-browser-based-rag-application-with-javascript-and-hugging-face-3mii)
+- [Live application](https://danycalloticona010-dotcom.github.io/papertrail-rag/)
+- [Public repository](https://github.com/danycalloticona010-dotcom/papertrail-rag)
+- [Successful automated deployment](https://github.com/danycalloticona010-dotcom/papertrail-rag/actions/runs/45825632455)
+
+Verified on 2026-11-26.
+
 ## Architecture
 
 ```text
@@ -60,9 +69,9 @@ Evidence is in `evidence/`. Initial prompt comparisons are retained to explain t
 
 ## Automated public deployment
 
-The intended target is GitHub Pages, a public SaaS host. Enable **Settings → Pages → Source → GitHub Actions** in the public repository. `.github/workflows/deploy.yml` tests retrieval, builds `dist/`, checks JavaScript syntax, and deploys only after the build job succeeds. It uses GitHub's short-lived workflow token and requires no cloud secret.
+The application is deployed on GitHub Pages, a public SaaS host. `.github/workflows/deploy.yml` tests retrieval, builds `dist/`, checks JavaScript syntax, and deploys only after the build job succeeds. It uses GitHub's short-lived workflow token and requires no cloud secret. The initial source was imported from `bootstrap-source.zip`; the workflow imports a changed archive after path validation and records the imported files in the repository. Ordinary source changes can also be committed directly and deployed through the same workflow.
 
-Deployment and article publication are not complete until their actual public URLs and a successful workflow run are verified. `delivery/links.json` records the real status. A workflow file alone is not deployment evidence.
+The links above identify the published article, working public application and successful workflow. `evidence/public-generation-validation.json` records real model checks on the public deployment. `delivery/links.json` records the remaining video and student submission steps.
 
 ## Scope and limits
 
@@ -72,7 +81,7 @@ For larger corpora, consider semantic or hybrid retrieval, reranking, stronger m
 
 ## Delivery materials
 
-- `docs/article-devto.md`: English article draft.
+- `docs/article-devto.md`: Source of the published English article.
 - `docs/video-script.md`: suggested recording plan of 4:30.
 - `delivery/`: publication status and public links when verified.
 - The video recording and Telegram submission will be completed by Marymar, as she requested.

@@ -1,0 +1,20 @@
+{
+  "verified_on": "2026-11-26",
+  "application": "https://danycalloticona010-dotcom.github.io/papertrail-rag/",
+  "deployment": "https://github.com/danycalloticona010-dotcom/papertrail-rag/actions/runs/45825632455",
+  "support": {
+    "question": "What is the support desk reference code?",
+    "answer": "ORBIT-42",
+    "metadata": "120 input tokens · 1788 ms generation · Xenova/flan-t5-small"
+  },
+  "library": {
+    "question": "What are the library opening hours?",
+    "answer": "The fictional Atlas Learning Lab library opens Monday to Friday from 09:00 to 17:00. It is closed on Saturdays and Sundays During the demonstration's examination week, the same opening hours apply; there is no evening extension.",
+    "metadata": "111 input tokens · 3073 ms generation · Xenova/flan-t5-small"
+  },
+  "unsupported": {
+    "question": "What is the capital of France?",
+    "status": "No supporting passages · generation skipped",
+    "answer": "I cannot answer from these documents. Try a question about the fictional Atlas handbook."
+  }
+}

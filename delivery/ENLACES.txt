@@ -1,0 +1,9 @@
+Retrieval-Augmented Generation Application — U2
+Estudiante: Marymar Danytza Calloticona Chambilla
+Verificado: 2026-11-26
+
+Artículo en inglés: https://dev.to/marymar_danytzacallotico/building-a-browser-based-rag-application-with-javascript-and-hugging-face-3mii
+Repositorio público: https://github.com/danycalloticona010-dotcom/papertrail-rag
+Aplicación pública: https://danycalloticona010-dotcom.github.io/papertrail-rag/
+Despliegue automático exitoso: https://github.com/danycalloticona010-dotcom/papertrail-rag/actions/runs/45825632455
+Video público (máximo 5 minutos): PENDIENTE — Marymar lo grabará y publicará.

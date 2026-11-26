@@ -1,0 +1,7 @@
+Entrega RAG — Marymar Danytza Calloticona Chambilla
+
+Completado: repositorio público, aplicación pública, despliegue automático con GitHub Actions y artículo publicado en inglés en DEV.to.
+
+Pendiente: grabar y publicar el video de máximo 5 minutos. Agregar su URL en ENLACES.txt, links.json y MENSAJE_TELEGRAM.txt antes de la entrega final. Marymar enviará el mensaje a Telegram y subirá el ZIP a la tarea. No se ha realizado el envío a Telegram ni la entrega en el aula.
+
+El guion sugerido está en docs/video-script.md del repositorio. La aplicación contiene documentos ficticios y evidencia de pruebas, incluida una limitación conocida del modelo.
